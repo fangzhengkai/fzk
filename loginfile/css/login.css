@@ -1,0 +1,160 @@
+.app{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('../img/background_1920.png');
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.app h1{
+    position: absolute;
+    top: 60px;
+    left: 63px;
+    display: block;
+    width: 203px;
+    height: 82px;
+    background: url('../img/logo1.png');
+    font-size: 0;
+}
+/* 登录框 */
+.loginbox{
+    width: 600px;
+    height: 454px;
+    background:rgba(0,0,0,0.24);
+    border-radius:20px;
+    margin: 200px auto 0;
+    text-align: center;
+    padding-top: 46px;
+}
+.loginbox>div{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom:33px;
+}
+
+
+.u2 .phone{
+    position: relative;
+    width: 476px;
+    margin: 0 auto;
+    text-align: center;
+}
+.u2 .oldp{
+    font-size: 24px;
+    color: #00A8FF;
+    margin: 18px auto 20px;
+}
+.u2 input{
+    display: inline-block;
+    margin:0 auto 20px;
+    width: 476px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 17px;
+    background:rgba(255,255,255,0.9);
+    text-indent: 68px;
+    margin-bottom: 20px;
+}
+.u2 .send{
+    line-height: 48px;
+    text-align: center;
+    float: right;
+    width: 118px;
+    border-radius: 12px;
+    border: 1px solid #00A8FF;
+    color: #00A8FF;
+    font-weight: bold;
+    cursor: pointer;
+}
+.u2 .vercode{
+    width: 232px;
+    float: left;
+    text-indent: 62px;
+}
+.u2 .codebox{
+    float: left;
+    width: 140px;
+    height: 60px;
+    margin: 0 9px 0 20px;
+}
+.u2 .phone span{
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    margin-top:20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.u2 .next{
+    width: 300px;
+    height: 56px;
+    margin: 0 auto;
+    overflow: hidden;
+    background:linear-gradient(0deg,rgba(57,150,255,1) 0%,rgba(11,186,251,1) 100%);
+    text-align: center;
+    line-height: 56px;
+    color: #fff;
+    border-radius: 35px;
+    font-size: 24px;
+    cursor: pointer;
+}
+#canvas{
+    width: 140px;
+    height: 60px;
+}
+.u2 .phone i{
+    display: inline-block;
+    width: 22px;
+    height: 25px;
+    position: absolute;
+    left: 30px;
+}
+.u2 .phone .i1{
+    top: 15px;
+    background: url('../img/icon_username_normal.png');
+}
+.u2 .phone .i2{
+    top: 97px;
+    background: url('../img/icon_password_normal.png');
+}
+.statebox{
+    width: 416px;
+    overflow: hidden;
+    text-align: justify;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: normal;
+}
+.statebox input{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    background: red;
+    outline: none;
+}
+.statebox .rempassword{
+    margin-right: 225px;
+}
+.forgetpass{
+    display: block;
+    margin: 9px auto 0;
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
